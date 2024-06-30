@@ -1,11 +1,11 @@
 # Setting and locking the Dependencies
 terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "4.2"
-    }
-  }
+  # required_providers {
+  #   aws = {
+  #     source  = "hashicorp/aws"
+  #     version = "4.2"
+  #   }
+  # }
   # Setting the Terraform version
   required_version = ">= 1.1.0"
 }
